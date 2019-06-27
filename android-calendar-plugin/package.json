@@ -17,12 +17,10 @@
   },
   "devDependencies": {
     "typescript": "^3.2.4",
-    "@capacitor/ios": "latest",
     "@capacitor/android": "latest"
   },
   "files": [
     "dist/",
-    "ios/",
     "android/",
     "AndroidCalendarPlugin.podspec"
   ],
@@ -32,9 +30,6 @@
     "native"
   ],
   "capacitor": {
-    "ios": {
-      "src": "ios"
-    },
     "android": {
       "src": "android"
     }
