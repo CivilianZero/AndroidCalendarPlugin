@@ -1,0 +1,49 @@
+{
+  "name": "android-calendar-plugin",
+  "version": "0.0.1",
+  "description": "capacitor plugin for adding/editing events in the native android calendar",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./dist",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "civilianzero",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.4",
+    "@capacitor/ios": "latest",
+    "@capacitor/android": "latest"
+  },
+  "files": [
+    "dist/",
+    "ios/",
+    "android/",
+    "AndroidCalendarPlugin.podspec"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CivilianZero/AndroidCalendarPlugin.git"
+  },
+  "bugs": {
+    "url": "git@github.com:CivilianZero/AndroidCalendarPlugin.git/issues"
+  }
+}
