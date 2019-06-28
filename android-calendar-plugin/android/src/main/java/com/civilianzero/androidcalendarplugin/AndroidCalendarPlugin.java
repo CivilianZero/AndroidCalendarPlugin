@@ -5,6 +5,7 @@ import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
+import android.provider.CalendarContract;
 
 @NativePlugin()
 public class AndroidCalendarPlugin extends Plugin {
